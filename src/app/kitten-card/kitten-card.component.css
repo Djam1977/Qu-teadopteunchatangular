@@ -1,0 +1,19 @@
+
+.cat-container {
+  border: 1px solid grey;
+  width: fit-content;
+  border-radius: 10px;
+  display: flex;
+ flex-direction: column;
+}
+
+
+.cat-container img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.infos-container {
+  margin: 10px;
+}
